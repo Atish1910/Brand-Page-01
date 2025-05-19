@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --blue: #309898;
+  --light: #f1f3fa;
+  --dark: #1c1c1c;
+  --yellow: #ffb81c;
+  --red: #c10016;
+  --orange: #ff6900;
+  --grey: #f3f2f4;
+  --hfont: Mukta, sans-serif;
+  --cfont: Montserrat, sans-serif;
+  --headfont: "Libre Baskerville", serif;
+  --font_01: Roboto, sans-serif;
+}
+
+section {
+  height: 100vh;
+  font-size: 14px;
+  font-family: var(--font_01);
+  font-display: swap;
+  background-color: var(--grey);
+}
+
+.text-red {
+  color: var(--red) !important;
+}
+
+.text-yellow {
+  color: var(--yellow) !important;
+}
+
+.text-orange {
+  color: var(--orange) !important;
+}
+.text-blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-nav {
+  background-color: rgb(198 226 255);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.title_01 {
+  font-family: var(--headfont);
+  font-size: 24px;
+}
+
+.logo_01 {
+  height: 50px;
+  object-fit: contain;
+}
+.social img {
+  height: 20px;
+  object-fit: contain;
+}
