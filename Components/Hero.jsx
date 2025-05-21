@@ -19,7 +19,6 @@ const Hero = () => {
             </div>
             <div className="">
               <button className="btn btn-danger rounded-0 me-4">
-                {" "}
                 Shop Now
               </button>
               <button className="btn btn-secondary rounded-0">Category</button>
@@ -35,7 +34,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-6 text-end">
-            <img src={shoe} className="w-100" alt="" />
+            <img src={shoe} className="img-001" alt="" />
           </div>
         </div>
       </div>

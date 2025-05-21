@@ -1,0 +1,30 @@
+Commands & prerequsits for Project
+============================================================================
+BELOW ALL STEPS IS NECESSARY TO CREATE ANY PROJECT
+-> npm create vite@latest
+-> Brand-Page
+-> cd Brand-Page
+-> js -> react
+-> npm i
+-> npm i bootstrap
+-> npm i bootstrap-icons
+go to main.jsx & update below code
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.min.css";
+============================================================================
+============================================================================
+
+Additional Functanility want to import
+---------------------------------------------------------
+01 : use Form
+-> npm i react-hook-form
+const {
+  register,
+  handleSubmit,
+  formState: { errors, isSubmitting },
+} = useForm();
+---------------------------------------------------------
+02 : Do Api Call Via Axios
+-> npm i axios
+
+

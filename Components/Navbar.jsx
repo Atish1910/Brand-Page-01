@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import img from "../public/img/logo.png";
 
 function Navbar() {
@@ -27,24 +28,34 @@ function Navbar() {
               >
                 <ul className="navbar-nav mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="">
-                      Menu
-                    </a>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? "nav-link active" : "nav-link "
+                      }
+                      to="/"
+                    >
+                      Home
+                    </NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="">
-                      Location
-                    </a>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? "nav-link active" : "nav-link "
+                      }
+                      to="/about"
+                    >
+                      About us
+                    </NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="">
-                      About
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="">
-                      Contact
-                    </a>
+                    <NavLink
+                      className={({ isActive }) =>
+                        isActive ? "nav-link active" : "nav-link "
+                      }
+                      to="/contact"
+                    >
+                      Contact Us
+                    </NavLink>
                   </li>
                 </ul>
               </div>

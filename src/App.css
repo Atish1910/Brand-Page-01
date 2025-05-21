@@ -63,3 +63,46 @@ section {
   height: 20px;
   object-fit: contain;
 }
+.img-001 {
+  height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.btn_c1 {
+  background-color: black !important;
+  color: white !important;
+  border: solid 1px black !important;
+}
+
+.btn_c1:hover {
+  background-color: white !important;
+  color: black !important;
+  border: solid 1px black !important;
+}
+.navbar-nav .nav-link.active {
+  color: #ff6900 !important;
+}
+
+.label-01 {
+  position: absolute;
+  left: 30px;
+  top: -11px;
+  background: white;
+  font-size: 16px;
+}
+.form-control {
+  border: solid 1px #000;
+  border-radius: 0 !important;
+}
+.form-control:focus {
+  border-color: #1c1c1c !important;
+  box-shadow: unset !important;
+}
+
+.input-errors:focus {
+  box-shadow: unset !important;
+}
+.input-errors {
+  border: solid 1px red !important;
+}
